@@ -1,0 +1,185 @@
+/* commone css */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.primary-btn{
+    background-color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 18px 30px 20px 29px;
+    color:#005FAC;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* header-section */
+header{
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    width: 1349px;
+    height:800px;
+    background-position: center top;
+    margin-top: -40px;
+}
+.heder-colulm{
+    text-align: right;
+    padding: 120px 49px 0px 800px;
+    width: 400px;
+}
+.heder-colulm h1{
+    color: #FFF;
+    font-size:50px;
+    font-weight: 700;
+}
+.heder-colulm p{
+    font-size: 15px;
+    color: #FFF;
+    margin: 15px 0px;
+
+}
+
+/* about-us */
+
+.about-us{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    gap: 50px;
+        padding: 0px 189px 0px 150px;
+
+}
+.about-title{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 26px;
+    color: #151414;
+}
+.about-subTitle{
+    font-size: 14px;
+    color: #444343;
+    margin-bottom: 20px;
+
+}
+.anout-check{
+    margin-bottom: 9px;
+    font-size: 15px;
+    color: #444343;
+}
+.fa-check:before {
+    content: "\f00c";
+    color: #16D887;
+    margin-right: 12px;
+}
+
+/* plan-sectoin */
+.plan{
+    margin-top: 100px;
+}
+.plan-title{
+    text-align: center;
+}
+.plan-info{
+    display: flex;
+    padding: 40px 100px 0px 169px;
+    gap: 72px;
+
+}
+.plan-info-discription{
+    text-align: center;
+
+}
+.plan-info-discription p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #737272;
+    text-align: center;
+}
+.plan-info-discription h2 {
+    font-size: 22px;
+    margin-top: 17px;
+    color: #151414;
+}
+
+/* contact */
+.contact{
+    margin-top: 100px;
+    background-image:url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center center, center center;
+    padding: 50px 0px 154px 205px;
+    margin-bottom: 201px;
+    position: relative;
+    z-index: -9;
+
+}
+.contact-info{
+    position: relative;
+}
+.contact-info h1{
+    color: white;
+    font-size: 30px;
+    width: 357px;
+    padding-top: 134px;
+    margin-bottom: 20px;
+}
+.contact img{
+    position: absolute;
+    top: 94px;
+    left: 105px;
+    z-index: -1;
+}
+.contact button{
+    background-color: #FFF;
+    color:#005FAC;
+    font-weight: 500;
+}
+
+/* footer */
+footer{
+    background: #151414;
+    color: white;
+    display: flex;
+
+}
+.footer-colum{
+    padding: 100px 387px 100px 146px;
+}
+.footer-colum h1{
+    font-weight: 600;
+    margin-bottom: 27px;
+}
+.footer-colum p{
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.footer-colum a{
+    margin-right: 15px;
+}
+.form{
+    padding: 100px 146px 0px 0px;
+}
+.form h2{
+    font-size: 22px;
+    margin-bottom: 17px;
+}
+.form input[type="email"]{
+    font-size: 15px;
+    padding: 8px 12px;
+    background-color: blck;
+    background-color: black;
+    border: 1px solid white;
+    margin-bottom: 21px;
+    color: white;
+    border-radius: 8px;
+
+}
+.form .submit-btn{
+    padding: 13px 28px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: red;
+    font-weight: 400;
+}
